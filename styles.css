@@ -4,15 +4,21 @@ body, h1, p {
     padding: 0;
     }
     /* Puedo seleccionar elementos por su tipo */
-    h1 {
-    color: rgb(0, 255, 200);
-    }
+    h1 {font-style: italic; font-size: 70px;
+    color: rgb(0, 255, 200); 
+    background-color: rgb(214, 106, 106); 
+     text-align: center;
+}
     /* Puedo seleccionar elementos por su clase */
     .text {
-    color: blue;
-    }
+    color: rgb(68, 0, 255);
+    font-size: 20px;
+    margin: 10px; }
     /* Puedo seleccionar elementos por su id */
     #last_p {
     color: green;
     }
-    
+    h2 {color: rgb(0, 255, 200); 
+        background-color: rgb(23, 11, 196);
+        font-size: 40px;}
+  img
